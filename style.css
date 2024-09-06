@@ -372,6 +372,7 @@ footer {
     padding-left: 0px;
     font-size: 0.87rem;
 }
+
 .footer3 div>p:hover {
     text-decoration: underline;
 }
@@ -407,12 +408,15 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .footer3{
+
+    .footer3 {
         flex-direction: column;
         height: 1100px;
+        background-color: #17212a;
     }
-    .footer3 div{
-       margin-top: 30px;
-       margin-bottom: 30px;
+
+    .footer3 div {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
