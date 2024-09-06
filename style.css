@@ -198,7 +198,6 @@
     background-color: #ede9e9;
     display: flex;
     justify-content: space-evenly;
-    /* margin-bottom: 20px; */
 }
 
 .box {
@@ -332,7 +331,8 @@ footer {
     align-items: center;
     background-color: #232F3E;
 }
-.footer2:hover{
+
+.footer2:hover {
     background-color: #232f3ed8;
 }
 
@@ -341,4 +341,33 @@ footer {
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 500;
+}
+
+@media (max-width:1000px) {
+    .navbar {
+        flex-direction: column;
+        height: 350px;
+        width: 100%;
+    }
+
+    .nav-search {
+        width: 80%;
+    }
+
+    .nav2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 300px;
+        text-align: center;
+    }
+    .hero-section{
+        height: 200px;
+        width: 100%;
+    }
+    .products-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
